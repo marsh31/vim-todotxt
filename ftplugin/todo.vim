@@ -6,7 +6,7 @@
 if exists('g:loaded_vim_todotxt')
   finish
 endif
-" let g:loaded_vim_todotxt = 1
+let g:loaded_vim_todotxt = 1
 
 let s:save_cpo = &cpo
 set cpo&vim
