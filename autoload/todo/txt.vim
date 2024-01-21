@@ -70,7 +70,7 @@ endfunction
 function! todo#txt#move_to_done()
     let completed = []
     :g/^x /call add(l:completed, getline(line("."))) | delete _
-    call writefile(completed, g:GTD_ACTION_DONE_FILE, "a")
+    call writefile(completed, g:TODO_DONE_FILE, "a")
 endfunction
 
 
